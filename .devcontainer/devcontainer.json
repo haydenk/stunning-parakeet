@@ -1,0 +1,20 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:focal",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "fish",
+                "terminal.integrated.profiles.linux": {
+                    "zsh": {
+                        "path": "/usr/bin/fish"
+                    }
+                }
+            },
+            "extensions": [
+                "budparr.language-hugo-vscode",
+                "tamasfe.even-better-toml",
+                "yzhang.markdown-all-in-one"
+            ]
+        }
+    }
+}
